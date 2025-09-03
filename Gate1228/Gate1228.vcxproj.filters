@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\engine">
+      <UniqueIdentifier>{a66dd3e9-218f-46ca-829a-2741bf4b3861}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\engine\game_data">
+      <UniqueIdentifier>{f39fe9dd-362e-478f-b793-1ce04a1720b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\game">
+      <UniqueIdentifier>{e586bbe6-7b4f-410e-8dab-325e41275cc9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\game\logic_objects">
+      <UniqueIdentifier>{47a752c3-164f-4537-bb92-c750544e302d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\_external">
+      <UniqueIdentifier>{90e6910e-7a72-4ff3-8509-212f77903b32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\_external\_pugiXML">
+      <UniqueIdentifier>{89df9e2d-d334-4d84-858c-99352966911c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\_external\_ImGUI">
+      <UniqueIdentifier>{10aba743-aac6-4c97-be73-67c3d4499cc1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\_legacy">
+      <UniqueIdentifier>{194d20d5-8f61-474f-86fe-7a2031589052}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\engine">
+      <UniqueIdentifier>{b2dbc3bb-8255-4be0-94ca-3785a14bf7a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\engine\ent_comp_sys">
+      <UniqueIdentifier>{50d210cc-cacd-48b2-a5d4-b22178f9f3ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\engine\game_data">
+      <UniqueIdentifier>{f23e4bc3-6ea5-4b43-b399-a83f463b6d0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\game">
+      <UniqueIdentifier>{be4a5d1a-991e-41df-8733-4149f9815171}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\game\logic_objects">
+      <UniqueIdentifier>{3bccb76a-e3b6-40fd-84d1-c0fbbfab680a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\unit_test">
+      <UniqueIdentifier>{ad658827-8daa-4c84-9b47-236e59b1bb13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\unit_test">
+      <UniqueIdentifier>{39adb028-fc2a-4b43-9ad5-fe899599a1ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\core">
+      <UniqueIdentifier>{c13e96d7-e972-49ed-af50-a00e248d6674}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\unit_test\engine_module">
+      <UniqueIdentifier>{bcc33789-639d-4ce7-b910-c13433489154}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\engine\ecs">
+      <UniqueIdentifier>{4b35153e-da02-4745-ad6e-992ef21bb0a3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\externLib\imgui-master\imgui.cpp">
+      <Filter>Source Files\_external\_ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\externLib\imgui-master\imgui_demo.cpp">
+      <Filter>Source Files\_external\_ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\externLib\imgui-master\imgui_draw.cpp">
+      <Filter>Source Files\_external\_ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\externLib\imgui-master\imgui-SFML.cpp">
+      <Filter>Source Files\_external\_ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="_legacy\world.cpp">
+      <Filter>Source Files\_legacy</Filter>
+    </ClCompile>
+    <ClCompile Include="_external\pugi_xml\pugixml.cpp">
+      <Filter>Source Files\_external\_pugiXML</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Player.cpp">
+      <Filter>Source Files\game\logic_objects</Filter>
+    </ClCompile>
+    <ClCompile Include="src\InputManager.cpp">
+      <Filter>Source Files\engine\game_data</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gGame.cpp">
+      <Filter>Source Files\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\EntityManager.cpp">
+      <Filter>Source Files\engine\ent_comp_sys</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ut_init.cpp">
+      <Filter>Source Files\unit_test</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Animation.cpp">
+      <Filter>Source Files\engine\game_data</Filter>
+    </ClCompile>
+    <ClCompile Include="src\DataManager.cpp">
+      <Filter>Source Files\engine\game_data</Filter>
+    </ClCompile>
+    <ClCompile Include="core\strictSingleton.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Engine.cpp">
+      <Filter>Source Files\engine</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\externLib\imgui-master\imgui-SFML.h">
+      <Filter>Source Files\_external\_ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externLib\imgui-master\imconfig.h">
+      <Filter>Source Files\_external\_ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\externLib\imgui-master\imgui.h">
+      <Filter>Source Files\_external\_ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\ent_com_sys\Component.hpp">
+      <Filter>Header Files\engine\ecs</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\ent_com_sys\Entity.hpp">
+      <Filter>Header Files\engine\ecs</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\data\DataManager.hpp">
+      <Filter>Header Files\engine\game_data</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\ent_com_sys\EntityFrame.h">
+      <Filter>Header Files\engine\ecs</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\graphics\Animation.hpp">
+      <Filter>Header Files\engine\game_data</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\control\InputManager.hpp">
+      <Filter>Header Files\engine\game_data</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\gGame.hpp">
+      <Filter>Header Files\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="game\logic_objects\Player.h">
+      <Filter>Header Files\game\logic_objects</Filter>
+    </ClInclude>
+    <ClInclude Include="game\logic_objects\Scroll.h">
+      <Filter>Header Files\game\logic_objects</Filter>
+    </ClInclude>
+    <ClInclude Include="game\logic_objects\Map.h">
+      <Filter>Header Files\game\logic_objects</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\control\SceneController.h">
+      <Filter>Header Files\engine\game_data</Filter>
+    </ClInclude>
+    <ClInclude Include="_external\pugi_xml\pugixml.hpp">
+      <Filter>Source Files\_external\_pugiXML</Filter>
+    </ClInclude>
+    <ClInclude Include="_external\pugi_xml\pugiconfig.hpp">
+      <Filter>Source Files\_external\_pugiXML</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\ent_com_sys\EntityManager.hpp">
+      <Filter>Header Files\engine\ecs</Filter>
+    </ClInclude>
+    <ClInclude Include="core\strictSingleton.hpp">
+      <Filter>Header Files\core</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\Engine.hpp">
+      <Filter>Header Files\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Battle.hpp">
+      <Filter>Header Files\game\logic_objects</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\control\Radio.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\samples.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="game\gate_components.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="game\gate_ent_frames.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="game\gate_scenes.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="images\warrior.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="_resources\data\testmap.xml">
+      <Filter>Resource Files</Filter>
+    </Xml>
+  </ItemGroup>
+</Project>

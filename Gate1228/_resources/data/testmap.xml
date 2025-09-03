@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<map  width="10" length="10">
+     <tile id="0" spriteid="">
+       <tilelayer id="0" objectid="5"/>
+      </tile>
+      <tile id="1" spriteid="">
+        <tilelayer id="0" objectid="6"/>
+      </tile>
+      <tile id="10" spriteid="">
+          <tilelayer id="0" objectid="7"/>
+      </tile>
+</map>
